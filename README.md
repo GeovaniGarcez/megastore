@@ -151,4 +151,3 @@ Depois abra o endereço sem estar autenticado para conferir o acesso. `target` n
 - The Rust Programming Language, Writing Automated Tests: <https://doc.rust-lang.org/book/ch11-00-testing.html>.
 
 Consulte o relatório para a análise específica do algoritmo implementado.
-

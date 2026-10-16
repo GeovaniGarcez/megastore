@@ -1,0 +1,25 @@
+Validação executada no ambiente Windows x64 com rustc 1.99.1 GNU
+
+cargo test
+Testes unitários: 6 aprovados, 0 reprovados
+Testes de integração: 3 aprovados, 0 reprovados
+Testes de documentação: 0
+
+Unitários
+registration
+edge_validation_and_update
+removal_is_symmetric
+shortest_paths_aggregate_and_ties_are_stable
+boundaries_and_disconnected
+purchased_products_and_duplicates_are_excluded
+
+Integração
+complete_customer_workflow
+real_cli_demo
+real_cli_rejects_unknown_customer
+
+cargo run --release -- demo
+Cliente 1: Mouse 0.8500; Monitor 0.7500; Teclado 0.4000
+Produto 1: Teclado 1.0000; Mouse 0.9000; Monitor 0.7000
+
+Benchmark real documentado em benchmark.csv e README.md.
